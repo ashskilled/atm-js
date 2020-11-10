@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US.ATM</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+    <h1>US ATM</h1>
+
+    <form id="atm" action="#" method="post">
+
+      <select name="choice" id="choice">
+        <option selected>-- select choice --</option>
+        <option value="deposit">Deposit</option>
+        <option value="withdrawal">Withdrawal</option>
+      </select>
+
+      <input type="text" id="amount" name="amount" placeholder="amount">
+
+      <input id="submit" type="submit" value="submit">
+    </form>
+
+    <p id="balance">Balance: $0.0</p>
+    
+    
+    <script src="js/atm.js"></script>
+</body>
+</html>
+
+
